@@ -622,14 +622,14 @@ function getOrganizationApiRequests(organizationId, t0, t1, timespan, perPage, s
     var organizationId = 'organizationId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 68.5659922326757;
-    var perPage = 68;
+    var timespan = 70.0068599544498;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var adminId = 'adminId';
     var path = 'path';
     var method = 'method';
-    var responseCode = 68;
+    var responseCode = 70;
     var sourceIp = 'sourceIp';
 
     controller.getOrganizationApiRequests(organizationId, t0, t1, timespan, perPage, startingAfter, endingBefore, adminId, path, method, responseCode, sourceIp, function(error, response, context) {
@@ -666,7 +666,7 @@ function getOrganizationApiRequestsOverview(organizationId, t0, t1, timespan, ca
     var organizationId = 'organizationId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 68.5659922326757;
+    var timespan = 70.0068599544498;
 
     controller.getOrganizationApiRequestsOverview(organizationId, t0, t1, timespan, function(error, response, context) {
 
@@ -1153,8 +1153,8 @@ function getOrganizationConfigurationChanges(organizationId, t0, t1, timespan, p
     var organizationId = 'organizationId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 68.5659922326757;
-    var perPage = 68;
+    var timespan = 70.0068599544498;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var networkId = 'networkId';
@@ -1193,7 +1193,7 @@ function getOrganizationDevices(organizationId, perPage, startingAfter, endingBe
 ```javascript
 
     var organizationId = 'organizationId';
-    var perPage = 68;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var configurationUpdatedAfter = 'configurationUpdatedAfter';
@@ -1230,7 +1230,7 @@ function getOrganizationDevicesStatuses(organizationId, perPage, startingAfter, 
 ```javascript
 
     var organizationId = 'organizationId';
-    var perPage = 68;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
@@ -1270,7 +1270,7 @@ function getOrganizationDevicesUplinksLossAndLatency(organizationId, t0, t1, tim
     var organizationId = 'organizationId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 68.5659922326757;
+    var timespan = 70.0068599544498;
     var uplink = Object.keys(uplink)[0];
     var ip = 'ip';
 
@@ -1308,7 +1308,7 @@ function getOrganizationInventoryDevices(organizationId, perPage, startingAfter,
 ```javascript
 
     var organizationId = 'organizationId';
-    var perPage = 68;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var usedState = Object.keys(usedState)[0];
@@ -1381,7 +1381,7 @@ function getOrganizationLicenses(organizationId, perPage, startingAfter, endingB
 ```javascript
 
     var organizationId = 'organizationId';
-    var perPage = 68;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var deviceSerial = 'deviceSerial';
@@ -1712,7 +1712,7 @@ function getOrganizationNetworks(organizationId, configTemplateId, tags, tagsFil
     var configTemplateId = 'configTemplateId';
     var tags = ['tags'];
     var tagsFilterType = Object.keys(tagsFilterType)[0];
-    var perPage = 160;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
@@ -2289,7 +2289,7 @@ function getOrganizationUplinksStatuses(organizationId, perPage, startingAfter, 
 ```javascript
 
     var organizationId = 'organizationId';
-    var perPage = 160;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var networkIds = ['networkIds'];
@@ -2364,8 +2364,8 @@ function getOrganizationWebhooksLogs(organizationId, t0, t1, timespan, perPage, 
     var organizationId = 'organizationId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
-    var perPage = 160;
+    var timespan = 70.0068599544498;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var url = 'url';
@@ -2604,11 +2604,11 @@ function getNetworkBluetoothClients(networkId, t0, timespan, perPage, startingAf
 
     var networkId = 'networkId';
     var t0 = 't0';
-    var timespan = 160.061274124338;
-    var perPage = 160;
+    var timespan = 70.0068599544498;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
-    var includeConnectivityHistory = true;
+    var includeConnectivityHistory = false;
 
     controller.getNetworkBluetoothClients(networkId, t0, timespan, perPage, startingAfter, endingBefore, includeConnectivityHistory, function(error, response, context) {
 
@@ -2643,8 +2643,8 @@ function getNetworkBluetoothClient(networkId, bluetoothClientId, includeConnecti
 
     var networkId = 'networkId';
     var bluetoothClientId = 'bluetoothClientId';
-    var includeConnectivityHistory = true;
-    var connectivityHistoryTimespan = 160;
+    var includeConnectivityHistory = false;
+    var connectivityHistoryTimespan = 70;
 
     controller.getNetworkBluetoothClient(networkId, bluetoothClientId, includeConnectivityHistory, connectivityHistoryTimespan, function(error, response, context) {
 
@@ -2681,8 +2681,8 @@ function getNetworkClients(networkId, t0, timespan, perPage, startingAfter, endi
 
     var networkId = 'networkId';
     var t0 = 't0';
-    var timespan = 160.061274124338;
-    var perPage = 160;
+    var timespan = 70.0068599544498;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
@@ -2725,12 +2725,12 @@ function getNetworkClientsApplicationUsage(networkId, clients, ssidNumber, perPa
     var networkId = 'networkId';
     var clients = 'clients';
     var ssidNumber = Object.keys(ssidNumber)[0];
-    var perPage = 160;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
+    var timespan = 70.0068599544498;
 
     controller.getNetworkClientsApplicationUsage(networkId, clients, ssidNumber, perPage, startingAfter, endingBefore, t0, t1, timespan, function(error, response, context) {
 
@@ -2803,12 +2803,12 @@ function getNetworkClientsUsageHistories(networkId, clients, ssidNumber, perPage
     var networkId = 'networkId';
     var clients = 'clients';
     var ssidNumber = Object.keys(ssidNumber)[0];
-    var perPage = 160;
+    var perPage = 70;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
+    var timespan = 70.0068599544498;
 
     controller.getNetworkClientsUsageHistories(networkId, clients, ssidNumber, perPage, startingAfter, endingBefore, t0, t1, timespan, function(error, response, context) {
 
@@ -3008,7 +3008,7 @@ function getNetworkClientTrafficHistory(networkId, clientId, perPage, startingAf
 
     var networkId = 'networkId';
     var clientId = 'clientId';
-    var perPage = 160;
+    var perPage = 161;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
@@ -3192,7 +3192,7 @@ function getNetworkEvents(networkId, productType, includedEventTypes, excludedEv
     var clientName = 'clientName';
     var smDeviceMac = 'smDeviceMac';
     var smDeviceName = 'smDeviceName';
-    var perPage = 160;
+    var perPage = 161;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
@@ -4060,9 +4060,9 @@ function getNetworkNetworkHealthChannelUtilization(networkId, t0, t1, timespan, 
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
-    var resolution = 160;
-    var perPage = 160;
+    var timespan = 161.502141846112;
+    var resolution = 161;
+    var perPage = 161;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
@@ -4518,7 +4518,7 @@ function getNetworkSplashLoginAttempts(networkId, ssidNumber, loginIdentifier, t
     var networkId = 'networkId';
     var ssidNumber = Object.keys(ssidNumber)[0];
     var loginIdentifier = 'loginIdentifier';
-    var timespan = 160;
+    var timespan = 161;
 
     controller.getNetworkSplashLoginAttempts(networkId, ssidNumber, loginIdentifier, timespan, function(error, response, context) {
 
@@ -4645,7 +4645,7 @@ function getNetworkTraffic(networkId, t0, timespan, deviceType, callback)
 
     var networkId = 'networkId';
     var t0 = 't0';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
     var deviceType = Object.keys(deviceType)[0];
 
     controller.getNetworkTraffic(networkId, t0, timespan, deviceType, function(error, response, context) {
@@ -5162,7 +5162,7 @@ function getDeviceClients(serial, t0, timespan, callback)
 
     var serial = 'serial';
     var t0 = 't0';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
 
     controller.getDeviceClients(serial, t0, timespan, function(error, response, context) {
 
@@ -5232,8 +5232,8 @@ function getDeviceLossAndLatencyHistory(serial, ip, t0, t1, timespan, resolution
     var ip = 'ip';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
-    var resolution = 160;
+    var timespan = 161.502141846112;
+    var resolution = 161;
     var uplink = Object.keys(uplink)[0];
 
     controller.getDeviceLossAndLatencyHistory(serial, ip, t0, t1, timespan, resolution, uplink, function(error, response, context) {
@@ -5612,10 +5612,10 @@ function getDeviceWirelessConnectionStats(serial, t0, t1, timespan, band, ssid, 
     var serial = 'serial';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
     var band = Object.keys(band)[0];
-    var ssid = 160;
-    var vlan = 160;
+    var ssid = 161;
+    var vlan = 161;
     var apTag = 'apTag';
 
     controller.getDeviceWirelessConnectionStats(serial, t0, t1, timespan, band, ssid, vlan, apTag, function(error, response, context) {
@@ -5657,10 +5657,10 @@ function getDeviceWirelessLatencyStats(serial, t0, t1, timespan, band, ssid, vla
     var serial = 'serial';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
     var band = Object.keys(band)[0];
-    var ssid = 160;
-    var vlan = 160;
+    var ssid = 161;
+    var vlan = 161;
     var apTag = 'apTag';
     var fields = 'fields';
 
@@ -5788,7 +5788,7 @@ function getNetworkWirelessAirMarshal(networkId, t0, timespan, callback)
 
     var networkId = 'networkId';
     var t0 = 't0';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
 
     controller.getNetworkWirelessAirMarshal(networkId, t0, timespan, function(error, response, context) {
 
@@ -6016,8 +6016,8 @@ function getNetworkWirelessChannelUtilizationHistory(networkId, t0, t1, timespan
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
-    var resolution = 160;
+    var timespan = 161.502141846112;
+    var resolution = 161;
     var autoResolution = true;
     var clientId = 'clientId';
     var deviceSerial = 'deviceSerial';
@@ -6065,14 +6065,14 @@ function getNetworkWirelessClientCountHistory(networkId, t0, t1, timespan, resol
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
-    var resolution = 160;
+    var timespan = 161.502141846112;
+    var resolution = 161;
     var autoResolution = true;
     var clientId = 'clientId';
     var deviceSerial = 'deviceSerial';
     var apTag = 'apTag';
     var band = Object.keys(band)[0];
-    var ssid = 160;
+    var ssid = 161;
 
     controller.getNetworkWirelessClientCountHistory(networkId, t0, t1, timespan, resolution, autoResolution, clientId, deviceSerial, apTag, band, ssid, function(error, response, context) {
 
@@ -6112,10 +6112,10 @@ function getNetworkWirelessClientsConnectionStats(networkId, t0, t1, timespan, b
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
     var band = Object.keys(band)[0];
-    var ssid = 160;
-    var vlan = 160;
+    var ssid = 161;
+    var vlan = 161;
     var apTag = 'apTag';
 
     controller.getNetworkWirelessClientsConnectionStats(networkId, t0, t1, timespan, band, ssid, vlan, apTag, function(error, response, context) {
@@ -6157,10 +6157,10 @@ function getNetworkWirelessClientsLatencyStats(networkId, t0, t1, timespan, band
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
     var band = Object.keys(band)[0];
-    var ssid = 160;
-    var vlan = 160;
+    var ssid = 161;
+    var vlan = 161;
     var apTag = 'apTag';
     var fields = 'fields';
 
@@ -6204,10 +6204,10 @@ function getNetworkWirelessClientConnectionStats(networkId, clientId, t0, t1, ti
     var clientId = 'clientId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
     var band = Object.keys(band)[0];
-    var ssid = 160;
-    var vlan = 160;
+    var ssid = 161;
+    var vlan = 161;
     var apTag = 'apTag';
 
     controller.getNetworkWirelessClientConnectionStats(networkId, clientId, t0, t1, timespan, band, ssid, vlan, apTag, function(error, response, context) {
@@ -6252,12 +6252,12 @@ function getNetworkWirelessClientConnectivityEvents(networkId, clientId, perPage
 
     var networkId = 'networkId';
     var clientId = 'clientId';
-    var perPage = 160;
+    var perPage = 161;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
     var types = [ Object.keys(type14)[0] ];
     var includedSeverities = [ Object.keys(includedSeverity)[0] ];
     var band = Object.keys(band)[0];
@@ -6301,8 +6301,8 @@ function getNetworkWirelessClientLatencyHistory(networkId, clientId, t0, t1, tim
     var clientId = 'clientId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
-    var resolution = 160;
+    var timespan = 161.502141846112;
+    var resolution = 161;
 
     controller.getNetworkWirelessClientLatencyHistory(networkId, clientId, t0, t1, timespan, resolution, function(error, response, context) {
 
@@ -6345,10 +6345,10 @@ function getNetworkWirelessClientLatencyStats(networkId, clientId, t0, t1, times
     var clientId = 'clientId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
     var band = Object.keys(band)[0];
-    var ssid = 160;
-    var vlan = 160;
+    var ssid = 161;
+    var vlan = 161;
     var apTag = 'apTag';
     var fields = 'fields';
 
@@ -6390,10 +6390,10 @@ function getNetworkWirelessConnectionStats(networkId, t0, t1, timespan, band, ss
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
     var band = Object.keys(band)[0];
-    var ssid = 160;
-    var vlan = 160;
+    var ssid = 161;
+    var vlan = 161;
     var apTag = 'apTag';
 
     controller.getNetworkWirelessConnectionStats(networkId, t0, t1, timespan, band, ssid, vlan, apTag, function(error, response, context) {
@@ -6437,14 +6437,14 @@ function getNetworkWirelessDataRateHistory(networkId, t0, t1, timespan, resoluti
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
-    var resolution = 160;
+    var timespan = 161.502141846112;
+    var resolution = 161;
     var autoResolution = true;
     var clientId = 'clientId';
     var deviceSerial = 'deviceSerial';
     var apTag = 'apTag';
     var band = Object.keys(band)[0];
-    var ssid = 160;
+    var ssid = 161;
 
     controller.getNetworkWirelessDataRateHistory(networkId, t0, t1, timespan, resolution, autoResolution, clientId, deviceSerial, apTag, band, ssid, function(error, response, context) {
 
@@ -6484,10 +6484,10 @@ function getNetworkWirelessDevicesConnectionStats(networkId, t0, t1, timespan, b
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
     var band = Object.keys(band)[0];
-    var ssid = 160;
-    var vlan = 160;
+    var ssid = 161;
+    var vlan = 161;
     var apTag = 'apTag';
 
     controller.getNetworkWirelessDevicesConnectionStats(networkId, t0, t1, timespan, band, ssid, vlan, apTag, function(error, response, context) {
@@ -6529,10 +6529,10 @@ function getNetworkWirelessDevicesLatencyStats(networkId, t0, t1, timespan, band
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 160.061274124338;
+    var timespan = 161.502141846112;
     var band = Object.keys(band)[0];
-    var ssid = 160;
-    var vlan = 160;
+    var ssid = 161;
+    var vlan = 161;
     var apTag = 'apTag';
     var fields = 'fields';
 
@@ -6576,10 +6576,10 @@ function getNetworkWirelessFailedConnections(networkId, t0, t1, timespan, band, 
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 118.338100897771;
+    var timespan = 161.502141846112;
     var band = Object.keys(band)[0];
-    var ssid = 118;
-    var vlan = 118;
+    var ssid = 161;
+    var vlan = 161;
     var apTag = 'apTag';
     var serial = 'serial';
     var clientId = 'clientId';
@@ -6626,14 +6626,14 @@ function getNetworkWirelessLatencyHistory(networkId, t0, t1, timespan, resolutio
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 118.338100897771;
-    var resolution = 118;
-    var autoResolution = false;
+    var timespan = 161.502141846112;
+    var resolution = 161;
+    var autoResolution = true;
     var clientId = 'clientId';
     var deviceSerial = 'deviceSerial';
     var apTag = 'apTag';
     var band = Object.keys(band)[0];
-    var ssid = 118;
+    var ssid = 161;
     var accessCategory = Object.keys(accessCategory)[0];
 
     controller.getNetworkWirelessLatencyHistory(networkId, t0, t1, timespan, resolution, autoResolution, clientId, deviceSerial, apTag, band, ssid, accessCategory, function(error, response, context) {
@@ -6675,10 +6675,10 @@ function getNetworkWirelessLatencyStats(networkId, t0, t1, timespan, band, ssid,
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 118.338100897771;
+    var timespan = 161.502141846112;
     var band = Object.keys(band)[0];
-    var ssid = 118;
-    var vlan = 118;
+    var ssid = 161;
+    var vlan = 161;
     var apTag = 'apTag';
     var fields = 'fields';
 
@@ -6714,7 +6714,7 @@ function getNetworkWirelessMeshStatuses(networkId, perPage, startingAfter, endin
 ```javascript
 
     var networkId = 'networkId';
-    var perPage = 118;
+    var perPage = 161;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
@@ -6748,7 +6748,7 @@ function getNetworkWirelessRfProfiles(networkId, includeTemplateProfiles, callba
 ```javascript
 
     var networkId = 'networkId';
-    var includeTemplateProfiles = false;
+    var includeTemplateProfiles = true;
 
     controller.getNetworkWirelessRfProfiles(networkId, includeTemplateProfiles, function(error, response, context) {
 
@@ -6983,14 +6983,14 @@ function getNetworkWirelessSignalQualityHistory(networkId, t0, t1, timespan, res
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 118.338100897771;
-    var resolution = 118;
-    var autoResolution = false;
+    var timespan = 161.502141846112;
+    var resolution = 161;
+    var autoResolution = true;
     var clientId = 'clientId';
     var deviceSerial = 'deviceSerial';
     var apTag = 'apTag';
     var band = Object.keys(band)[0];
-    var ssid = 118;
+    var ssid = 161;
 
     controller.getNetworkWirelessSignalQualityHistory(networkId, t0, t1, timespan, resolution, autoResolution, clientId, deviceSerial, apTag, band, ssid, function(error, response, context) {
 
@@ -7761,14 +7761,14 @@ function getNetworkWirelessUsageHistory(networkId, t0, t1, timespan, resolution,
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 118.338100897771;
-    var resolution = 118;
+    var timespan = 119.778968619545;
+    var resolution = 119;
     var autoResolution = false;
     var clientId = 'clientId';
     var deviceSerial = 'deviceSerial';
     var apTag = 'apTag';
     var band = Object.keys(band)[0];
-    var ssid = 118;
+    var ssid = 119;
 
     controller.getNetworkWirelessUsageHistory(networkId, t0, t1, timespan, resolution, autoResolution, clientId, deviceSerial, apTag, band, ssid, function(error, response, context) {
 
@@ -7847,7 +7847,7 @@ function getDeviceCameraAnalyticsOverview(serial, t0, t1, timespan, objectType, 
     var serial = 'serial';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 118.338100897771;
+    var timespan = 119.778968619545;
     var objectType = Object.keys(objectType)[0];
 
     controller.getDeviceCameraAnalyticsOverview(serial, t0, t1, timespan, objectType, function(error, response, context) {
@@ -7950,8 +7950,8 @@ function getDeviceCameraAnalyticsZoneHistory(serial, zoneId, t0, t1, timespan, r
     var zoneId = 'zoneId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 118.338100897771;
-    var resolution = 118;
+    var timespan = 119.778968619545;
+    var resolution = 119;
     var objectType = Object.keys(objectType)[0];
 
     controller.getDeviceCameraAnalyticsZoneHistory(serial, zoneId, t0, t1, timespan, resolution, objectType, function(error, response, context) {
@@ -8536,8 +8536,8 @@ function getNetworkApplianceClientSecurityEvents(networkId, clientId, t0, t1, ti
     var clientId = 'clientId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 118.338100897771;
-    var perPage = 118;
+    var timespan = 119.778968619545;
+    var perPage = 119;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var sortOrder = Object.keys(sortOrder)[0];
@@ -9390,8 +9390,8 @@ function getNetworkApplianceSecurityEvents(networkId, t0, t1, timespan, perPage,
     var networkId = 'networkId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 118.338100897771;
-    var perPage = 118;
+    var timespan = 119.778968619545;
+    var perPage = 119;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var sortOrder = Object.keys(sortOrder)[0];
@@ -10656,8 +10656,8 @@ function getOrganizationApplianceSecurityEvents(organizationId, t0, t1, timespan
     var organizationId = 'organizationId';
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 118.338100897771;
-    var perPage = 118;
+    var timespan = 119.778968619545;
+    var perPage = 119;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var sortOrder = Object.keys(sortOrder)[0];
@@ -10759,7 +10759,7 @@ function getOrganizationApplianceUplinkStatuses(organizationId, perPage, startin
 ```javascript
 
     var organizationId = 'organizationId';
-    var perPage = 118;
+    var perPage = 119;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var networkIds = ['networkIds'];
@@ -10802,13 +10802,13 @@ function getOrganizationApplianceVpnStats(organizationId, perPage, startingAfter
 ```javascript
 
     var organizationId = 'organizationId';
-    var perPage = 118;
+    var perPage = 119;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var networkIds = ['networkIds'];
     var t0 = 't0';
     var t1 = 't1';
-    var timespan = 118.338100897771;
+    var timespan = 119.778968619545;
 
     controller.getOrganizationApplianceVpnStats(organizationId, perPage, startingAfter, endingBefore, networkIds, t0, t1, timespan, function(error, response, context) {
 
@@ -10843,7 +10843,7 @@ function getOrganizationApplianceVpnStatuses(organizationId, perPage, startingAf
 ```javascript
 
     var organizationId = 'organizationId';
-    var perPage = 118;
+    var perPage = 119;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var networkIds = ['networkIds'];
@@ -11078,7 +11078,7 @@ function getDeviceSwitchPortsStatuses(serial, t0, timespan, callback)
 
     var serial = 'serial';
     var t0 = 't0';
-    var timespan = 118.338100897771;
+    var timespan = 119.778968619545;
 
     controller.getDeviceSwitchPortsStatuses(serial, t0, timespan, function(error, response, context) {
 
@@ -11112,7 +11112,7 @@ function getDeviceSwitchPortsStatusesPackets(serial, t0, timespan, callback)
 
     var serial = 'serial';
     var t0 = 't0';
-    var timespan = 118.338100897771;
+    var timespan = 119.778968619545;
 
     controller.getDeviceSwitchPortsStatusesPackets(serial, t0, timespan, function(error, response, context) {
 
@@ -14241,7 +14241,7 @@ function getOrganizationCellularGatewayUplinkStatuses(organizationId, perPage, s
 ```javascript
 
     var organizationId = 'organizationId';
-    var perPage = 209;
+    var perPage = 211;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
     var networkIds = ['networkIds'];
@@ -14372,7 +14372,7 @@ function getNetworkSmDevices(networkId, fields, wifiMacs, serials, ids, scope, p
     var serials = ['serials'];
     var ids = ['ids'];
     var scope = ['scope'];
-    var perPage = 209;
+    var perPage = 211;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
@@ -14666,7 +14666,7 @@ function getNetworkSmDeviceConnectivity(networkId, deviceId, perPage, startingAf
 
     var networkId = 'networkId';
     var deviceId = 'deviceId';
-    var perPage = 209;
+    var perPage = 211;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
@@ -14704,7 +14704,7 @@ function getNetworkSmDeviceDesktopLogs(networkId, deviceId, perPage, startingAft
 
     var networkId = 'networkId';
     var deviceId = 'deviceId';
-    var perPage = 209;
+    var perPage = 211;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
@@ -14742,7 +14742,7 @@ function getNetworkSmDeviceDeviceCommandLogs(networkId, deviceId, perPage, start
 
     var networkId = 'networkId';
     var deviceId = 'deviceId';
-    var perPage = 209;
+    var perPage = 211;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
@@ -14844,7 +14844,7 @@ function getNetworkSmDevicePerformanceHistory(networkId, deviceId, perPage, star
 
     var networkId = 'networkId';
     var deviceId = 'deviceId';
-    var perPage = 209;
+    var perPage = 211;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
@@ -15266,7 +15266,7 @@ function getNetworkSmUserAccessDevices(networkId, perPage, startingAfter, ending
 ```javascript
 
     var networkId = 'networkId';
-    var perPage = 209;
+    var perPage = 211;
     var startingAfter = 'startingAfter';
     var endingBefore = 'endingBefore';
 
